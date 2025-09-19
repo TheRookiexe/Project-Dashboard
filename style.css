@@ -38,38 +38,42 @@ body {
 
 .header {
     background-color: #F6F1E9;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .top-header {
     display: flex;
     justify-content: start;
     align-items: center;
+    justify-content: space-between;
 }
 
 .bottom-header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header > div > img,.profile-icon {
+.icon-h {
+    display: flex;
+}
+
+.header > div >div> img,.profile-icon {
     height: 40px;
     width: 40px;
     overflow: hidden;
     object-fit:cover;
-    margin-left:40px;
-    margin-right: 50px;
 }
 
-.header>div>.search-bar {
+.header>div>div>.search-bar {
     background-color: rgb(124, 255, 235);
     padding: 8px;
-    width: 500px;
+    width: 700px;
     border-radius: 20px;
-    margin-right: 200px;
     border: none;
 }
 
@@ -84,7 +88,7 @@ body {
     font-size: 22px;
 }
 
-.header>div>.p-icon {
+.header>div>div>.p-icon {
     height: 60px;
     width: 60px;
     border: 50%;
@@ -92,14 +96,19 @@ body {
     object-fit: cover;
 }
 
+.bh {
+    display: flex;
+    gap: 20px;
+}
+
 #header-icon {
-    border-radius: 10px;
+    border-radius: 22px;
     background-color: rgb(116, 116, 243);
     width: 100px;
-    height: 28px;
+    height: 45px;
     color: white;
     text-align: center;
-    line-height: 26px;
+    line-height: 45px;
     margin: 5px;
     font-size: 20px;
     font-weight: bold;
