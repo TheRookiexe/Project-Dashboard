@@ -2,3 +2,73 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.dashboard {
+    padding: 10px;
+    background-color: #37353E;
+    color: white;
+    font-size: 22px;
+
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.header {
+    background-color: #F6F1E9;
+    padding: 10px;
+}
+
+.header > div > img,.profile-icon {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    object-fit:cover;
+}
+
+.header>div>.search-bar {
+    background-color: rgb(124, 255, 235);
+    padding: 8px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.search-bar::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.profile-name {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.header>div>.p-icon {
+    height: 60px;
+    width: 60px;
+    border: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#header-icon {
+    border-radius: 10px;
+    background-color: rgb(116, 116, 243);
+    width: 100px;
+    height: 28px;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
