@@ -36,6 +36,12 @@ body {
     font-size: 27px;
 }
 
+.dashboard>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .header {
     background-color: #F6F1E9;
     padding: 20px;
