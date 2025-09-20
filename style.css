@@ -121,13 +121,17 @@ body {
 }
 
 .project-grid {
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 1fr;
+    row-gap: 28px;
+    padding: 20px;
 }
 
 .project-div {
     background-color: antiquewhite;
     height: 310px;
-    width: 390px;
+    width: 420px;
     border-left: 8px #37353E solid;
     border-radius: 11px;
 }
