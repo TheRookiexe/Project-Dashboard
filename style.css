@@ -6,6 +6,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container {
@@ -40,6 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    list-style-type: none;
 }
 
 .header {
@@ -125,13 +127,39 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 70px 1fr 1fr;
     row-gap: 28px;
-    padding: 20px;
+    column-gap: 28px;
+    padding: 30px;
 }
 
 .project-div {
     background-color: antiquewhite;
     height: 310px;
     width: 420px;
-    border-left: 8px #37353E solid;
+    border-left: 8px rgb(236, 196, 121) solid;
     border-radius: 11px;
+    box-shadow: 0 6px 8px rgb(130, 128, 128);
+}
+
+#img-container {
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+#title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.proj-actions {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
 }
