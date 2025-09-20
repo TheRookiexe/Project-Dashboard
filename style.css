@@ -85,7 +85,7 @@ body {
 
 .search-bar::placeholder {
     color: black;
-    font-size: medium;
+    font-size: 17px;
     opacity: 1;
 }
 
@@ -118,4 +118,16 @@ body {
     margin: 5px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.project-grid {
+    padding: 10px;
+}
+
+.project-div {
+    background-color: antiquewhite;
+    height: 310px;
+    width: 390px;
+    border-left: 8px #37353E solid;
+    border-radius: 11px;
 }
